@@ -1,0 +1,37 @@
+.myPhoto{
+    margin: auto;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(to right,#3367A1 0%, #18773F 50%,#3367A1 100% );
+    -webkit-clip-path: polygon(0 0%, 100% 37%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 37%, 100% 100%, 0% 100%);
+}
+
+.myPhoto:after {
+    content: "";
+    display: block;
+    max-width: 480px;
+    max-height: 480px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2012/03/03/23/54/animal-21668_960_720.jpg);
+    -webkit-clip-path: polygon(0 1%, 100% 38%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 38%, 100% 100%, 0% 100%);
+    padding-top: 100%;
+}
+
+@media only screen and (max-width: 499px) {
+    .myPhoto{
+        max-width: 350px;
+        max-height: 350px;
+    }
+    
+    .myPhoto:after {
+        max-width: 330px;
+        max-height: 330px;
+    }
+}
