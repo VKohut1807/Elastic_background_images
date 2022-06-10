@@ -1,6 +1,6 @@
 # Elastic_background_images
 
-![fotoExample](https://user-images.githubusercontent.com/48514587/172993795-1adfdb4c-dd77-4610-91bc-4b07f7988f67.png)
+![fotoExample](https://user-images.githubusercontent.com/48514587/172999175-57ec5fde-46e8-418a-91fe-24265fb20e62.png)
 
 ## Examples of element dimensions:
 - For screen 500px and more - width: 500px / 500px image
